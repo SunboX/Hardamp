@@ -6,4 +6,5 @@
   (lib (name "ESP32_NODEMCU")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32_NODEMCU.pretty")(options "")(descr ""))
   (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/parts/MX_Alps_Hybrid.pretty")(options "")(descr ""))
   (lib (name "TL1240GQ1JCLR")(type "KiCad")(uri "${KIPRJMOD}/parts/TL1240GQ1JCLR.pretty")(options "")(descr ""))
+  (lib (name "Buttons_Switches_THT")(type "KiCad")(uri "${KIPRJMOD}/parts/Buttons_Switches_THT.pretty")(options "")(descr ""))
 )
