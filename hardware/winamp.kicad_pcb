@@ -1110,7 +1110,7 @@
 
   (footprint "RSA0N11M9A07:TRIM_RSA0N11M9A07" (layer "F.Cu")
     (tedit 642D04E3) (tstamp d0dfd7c1-401d-4f64-8463-f4c0813ac28f)
-    (at 116.8 91.925)
+    (at 116.8 91.125)
     (property "MANUFACTURER" "Alps")
     (property "MAXIMUM_PACKAGE_HEIGHT" "34.70mm")
     (property "PARTREV" "N/A")
@@ -1288,25 +1288,47 @@
 
   (gr_poly
     (pts
-      (xy 52.496229 81.450023)
-      (xy 52.496229 49.410037)
-      (xy 58.680067 49.410037)
-      (xy 58.680067 51.660052)
-      (xy 58.680067 79.2)
-      (xy 95.4 79.2)
-      (xy 95.4 51.660052)
-      (xy 58.680067 51.660052)
-      (xy 58.680067 49.410037)
-      (xy 97.69129 49.410037)
-      (xy 97.69129 81.450023)
-    ) (layer "F.SilkS") (width 0.05) (fill solid) (tstamp 6dc4ee29-9574-4038-a646-3491c933ab9f))
-  (gr_text "TFT 2.4 inch\nILI9341\n240x320 SPI" (at 78.2 65) (layer "F.SilkS") (tstamp 493b2804-403a-4cb2-aa7b-040293e72c0c)
+      (xy 98.276965 42.018253)
+      (xy 186.123036 42.018253)
+      (xy 186.123036 47.6)
+      (xy 180.535302 47.6)
+      (xy 103.891826 47.6)
+      (xy 103.891826 66.744498)
+      (xy 180.535302 66.744498)
+      (xy 180.535302 47.6)
+      (xy 186.123036 47.6)
+      (xy 186.123036 69.76955)
+      (xy 98.276965 69.76955)
+    ) (layer "F.SilkS") (width 0.06655) (fill solid) (tstamp 3cc698f5-0cb1-4cfe-8278-ad0242500876))
+  (gr_poly
+    (pts
+      (xy 37.445375 81.194781)
+      (xy 37.445375 38.54956)
+      (xy 45.676063 38.54956)
+      (xy 45.676063 41.54433)
+      (xy 45.676063 78.2)
+      (xy 94.550293 78.2)
+      (xy 94.550293 41.54433)
+      (xy 45.676063 41.54433)
+      (xy 45.676063 38.54956)
+      (xy 97.6 38.54956)
+      (xy 97.6 81.194781)
+    ) (layer "F.SilkS") (width 0.06655) (fill solid) (tstamp 67b836f5-9abb-410f-a0e0-7620d94d0780))
+  (gr_text "OLED 3.12 inch green\nSSD1322\n256x64 SPI" (at 144.4 56.6) (layer "F.SilkS") (tstamp 3de39562-ecb0-492f-b71f-d276cee23e94)
+    (effects (font (size 2.032 1.524) (thickness 0.3048)))
+  )
+  (gr_text "TFT 2.4 inch\nILI9341\n240x320 SPI" (at 70.8 59.4) (layer "F.SilkS") (tstamp 493b2804-403a-4cb2-aa7b-040293e72c0c)
     (effects (font (size 2.032 1.524) (thickness 0.3048)))
   )
 
-  (group "" (id 70f5c3d3-4adc-47ed-b946-52d46610829d)
+  (group "" (id 30ead398-6d63-45e0-93e9-14f385270c33)
     (members
-      6dc4ee29-9574-4038-a646-3491c933ab9f
+      67b836f5-9abb-410f-a0e0-7620d94d0780
+    )
+  )
+  (group "" (id d69c5e97-8f5a-4b0f-a9a9-389fc3f745f3)
+    (members
+      3cc698f5-0cb1-4cfe-8278-ad0242500876
     )
   )
 )
