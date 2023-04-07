@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LSD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="speed settings">Scene</div>
+        <div class="wrapper">
+          <select class="box">
+            <option selected>Scene 1</option>
+            <option>Scene 2</option>
+            <option>Scene 3</option>
+            <option>Scene 4</option>
+          </select>
+        </div>
+
+        <div class="speed settings">Speed</div>
+        <div class="wrapper">
+            <input type="radio" name="speed-settings" id="option-1" value="1">
+            <input type="radio" name="speed-settings" id="option-2" value="2" checked>
+            <input type="radio" name="speed-settings" id="option-3" value="3">
+            <label for="option-1" class="option option-1">
+                <span>Slow</span>
+            </label>
+            <label for="option-2" class="option option-2">
+                <span>Normal</span>
+            </label>
+            <label for="option-3" class="option option-3">
+                <span>Fast</span>
+            </label>
+        </div>
+
+        <div class="set">
+            <nav class="o-pad">
+                <a class="up control" data-direction="u"></a>
+                <a class="right control" data-direction="r"></a>
+                <a class="down control" data-direction="d"></a> 
+                <a class="left control" data-direction="l"></a>
+            </nav>
+        </div>
+
+        <div class="date-time settings">Date/Time</div>
+        <div class="wrapper">
+            <input type="date">
+            <input type="time">
+        </div>
+
+        <button>Save</button>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

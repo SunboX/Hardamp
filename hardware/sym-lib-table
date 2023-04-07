@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "RDC1014A09")(type "KiCad")(uri "${KIPRJMOD}/parts/RDC1014A09.pretty/RDC1014A09.kicad_sym")(options "")(descr ""))
+  (lib (name "RDC1032")(type "KiCad")(uri "${KIPRJMOD}/parts/RDC1032.pretty/RDC1032.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV271QDBVRQ1")(type "Legacy")(uri "${KIPRJMOD}/parts/TLV271QDBVRQ1.pretty/TLV271QDBVRQ1.lib")(options "")(descr ""))
+  (lib (name "ESP32_NODEMCU")(type "KiCad")(uri "${KIPRJMOD}/parts/ESP32_NODEMCU.pretty/ESP32_NODEMCU.kicad_sym")(options "")(descr ""))
+  (lib (name "RSA0N11M9A07")(type "KiCad")(uri "${KIPRJMOD}/parts/RSA0N11M9A07.pretty/RSA0N11M9A07.kicad_sym")(options "")(descr ""))
+  (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "${KIPRJMOD}/parts/MX_Alps_Hybrid.pretty/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name "TL1240GQ1JCLR")(type "KiCad")(uri "${KIPRJMOD}/parts/TL1240GQ1JCLR.pretty/TL1240GQ1JCLR.kicad_sym")(options "")(descr ""))
+)
