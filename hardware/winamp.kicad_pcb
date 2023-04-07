@@ -705,7 +705,7 @@
 
   (footprint "TL1240GQ1JCLR:SW_TL1240GQ1JCLR" (layer "F.Cu")
     (tedit 64304F4B) (tstamp 0ce8d3ab-2662-4158-8a2a-18b782908fc5)
-    (at 170.7 78.2)
+    (at 170 77.2)
     (property "MANUFACTURER" "E-Switch")
     (property "MAXIMUM_PACKAGE_HEIGHT" "7.18.2022")
     (property "PARTREV" "B")
@@ -759,7 +759,7 @@
 
   (footprint "TL1240GQ1JCLR:SW_TL1240GQ1JCLR" (layer "F.Cu")
     (tedit 64304F4B) (tstamp 503dbd88-3e6b-48cc-a2ea-a6e28b52a1f7)
-    (at 180.1 78.2)
+    (at 181.8 77.2)
     (property "MANUFACTURER" "E-Switch")
     (property "MAXIMUM_PACKAGE_HEIGHT" "7.18.2022")
     (property "PARTREV" "B")
@@ -773,7 +773,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cf386a39-fc62-49dd-8ec5-e044f6bd67ce)
     )
-    (fp_text value "TL1240GQ1JCLR" (at 1.9 -7.2) (layer "F.Fab")
+    (fp_text value "TL1240GQ1JCLR" (at 11.4 0) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2dc54bac-8640-4dd7-b8ed-3c7acb01a8ea)
     )
@@ -1110,7 +1110,7 @@
 
   (footprint "RSA0N11M9A07:TRIM_RSA0N11M9A07" (layer "F.Cu")
     (tedit 642D04E3) (tstamp d0dfd7c1-401d-4f64-8463-f4c0813ac28f)
-    (at 116.8 91.125)
+    (at 112.6 90.8)
     (property "MANUFACTURER" "Alps")
     (property "MAXIMUM_PACKAGE_HEIGHT" "34.70mm")
     (property "PARTREV" "N/A")
